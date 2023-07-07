@@ -10,7 +10,7 @@ The program first prompts the user for a natural language query. It then uses th
 
 1. `main.py`: The entry point of the application. It handles user input and coordinates the conversion process.
 2. `sql_converter.py`: Contains the `SQLConverter` class responsible for converting plain text to SQL using the GPT-3 model.
-3. `openai_client.py`: Contains the `OpenAIClient` class responsible for interacting with the OpenAI API to make requests for the GPT-3 model.
+3. `openai_client.py`: Contains the `OpenAIClient` class responsible for interacting with the OpenAI API to make requests for the davinci-text-edit-001 and GPT-3.5-turbo models.
 
 ## How to run:
 1. Install dependencies using `pip install -r requirements.txt`
