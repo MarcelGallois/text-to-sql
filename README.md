@@ -14,10 +14,13 @@ The program first prompts the user for a natural language query. It then uses th
 
 ## How to run:
 1. Install dependencies using `pip install -r requirements.txt`
-2. Run `python main.py`
-3. Launch the application in your browser at `http://127.0.0.1:7860/`
-4. Enter a natural language query and click submit
-5. The application will return the SQL query generated from the natural language query
+2. Acquire an OpenAI API key through their website
+3. Set the OpenAI API key as an environment variable
+4. Run `python main.py`
+5. Launch the application in your browser at `http://127.0.0.1:7860/`
+6. Enter a natural language query and click submit
+7. The application will return the SQL query generated from the natural language query
+   
 
 
 
